@@ -8,6 +8,7 @@ body {
 /* Select all h1, h2, ..., h6 tags */
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
 }
 
 /* Select the element with id="page" */
