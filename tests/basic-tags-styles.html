@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Basic Tags</title>
+  <style media="screen">
+  .blue{
+    color: blue;
+  }
+  .purple{
+    color: purple;
+  }
+  .red{
+    color: red;
+  }
+  #s1{
+    color:blue;
+    font-family: "helvetica", sans-serif;
+  }
+  #s2{
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+  }
+  #s3{
+    font-size: 14px;
+    background-color: green;
+  }
+  #s4{
+    font-family: "Times New Roman", sans-serif;
+  }
+  #s5{
+    font-family: Arial, sans-serif;
+  }
+  #s6{
+    font-family: Arial, sans-serif;
+  }
+  #s7{
+    font-family: "Times New Roman", sans-serif;
+  }
+  #s7 > h2{
+    border-style: double;
+  }
+  #s2 > h3{
+    border-style: double;
+  }
+  #s1 > h1{
+    color: red;
+  }
+  </style>
+
+</head>
+<body>
+  <h1>Basic Tags</h1>
+  <section class="s1">
+    <h2>Block-Level Containers</h2>
+    <p>
+    Here is a demonstration of how to use the following tags: p, blockquote, and pre.
+    </p>
+    <h3>p Tag</h3>
+    <p> Believe it or not this text is in a p tag! The p tag starts and the /p tag ends a paragraph.
+      Both of these tags are required for proper formatting. A single blank line is automatically added before and after the content inside every p tag.
+      This is the lowest level of text, under all the headings: h1, h2, h3... </p>
+    <h3>Blockquote Tag</h3>
+    <p>The blockquote tag is used for extended quotes. It is shown by indentation and quotations.
+    It can have a cite attribute which would give the URL of the source. Below is an example of a block quote.</p>
+    <blockquote cite="https://google.com">"This is a blockquote. Notice the indentation of it in the text. I cited google just to demonstrate the cite attribute." </blockquote>
+    <h3>Pre Tag</h3>
+    <p> The pre tag is used for preformatted text which is shown exactly as written in it's HTML file.
+      You can use this tag to create designs with your text and not have them be affected by the formatting that is accompanied by p, h1, etc.
+      Below is an exmaple of how you cane use the pre tag.
+      </p>
+<pre class="red">
+  a
+   p
+    p
+     l
+      e
+         b
+        o
+      t
+    t
+  o
+m
+  j
+   e
+    a
+     n
+      s
+</pre>
+
+  </section>
+  <section class="s2">
+   <h2 class="blue">Inline Text Styling</h2>
+   <p>
+   Here is a demonstration of how to use the following tags: em, i, strong, b, and code.
+   </p>
+   <h3>em and i Tag</h3>
+   <p> The i tag is used to make a section of text italicized and is used for presentation purposes. Here is an example of the i tag being used on the word <i>pineapple</i>.
+    The em tag is used to emphasize it's contents and it's text is also displayed in italics. Here is an example of the em tag being used on the word <em>pineapple</em>. </p>
+   <h3>Strong and B Tag</h3>
+   <p>The strong tag is used to place importance on it's contents. This tag makes the text appear bold but also indicated a word in meaningful or important. Here is an exmaple of the strong tag being used on the word <strong>pineapple</strong>.
+    Similarly, the b tag is used to make it's contents bolded and more obvious to the reader. It is only used for style not for additional importance. Here is an example of the b tag being used on the word <b>pineapple</b>. </p>
+    <h3>Code Tag</h3>
+    <p>This code tag is used to define a piece of computer code. The content is displayed as the defult font and spacing.
+       An example of the code tag being used to create an un-clickable button can be seen below.</p>
+    <code>button</code>
+  </section>
+    <section  class="s3">
+    <h2>a Tag</h2>
+    <p>The a tag is also known as the anchor element. This tag defines a hyperlink that links this page to another page.
+      This tag uses a href attribute which indicates the destination of the link. An example below uses the a tag to link to google.</p>
+      <a href="https://google.com">Google</a>
+    </section>
+    <section  class="s4">
+      <h2>img Tag</h2>
+      <p>The img tag is used to insert an image in html. This tag requires two attributes.
+        The first one is src which is the source of the image, often url or a file name.
+        The second attribute is alt which specifies text to be displayed when the image for any reason cannot be displayed.
+      Below is the img tage being used to embed an image onto this page. </p>
+      <img src="../assets/img/tucker.jpg" alt="Tuckerman's Ravine">
+      </section>
+      <section  class="s5">
+      <h2>Header Tags</h2>
+      <p> There are many different header tags that are named based on importance. The first, or biggest is the h1 tag and then h2 and so on. On this page I have already used an h1, h2, and h3. Below are exmaples of the different header tags starting with h1 and increaseing by one each time. </p>
+      <h1>Heading</h1>
+      <h2>Heading</h2>
+      <h3>Heading</h3>
+      <h4>Heading</h4>
+      <h5>Heading</h5>
+      </section>
+
+
+
+
+  <section  class="s6">
+    <h2>List Section</h2>
+    <h2 class="purple">Unordered lists</h2>
+
+    <h3>Women's 1000m Speed Skating 2010 Olympic Podium</h3>
+    <ul>
+      <li>Christine Nesbitt</li>
+      <li>Annette Gerritsen</li>
+      <ul>
+        <li>Netherlands</li>
+        <li>Born October 11, 1985</li>
+        <li><a href="https://www.olympic.org/annette-gerritsen">Official Olympic Profile</a></li>
+      </ul>
+      <li>Laurine van Riessen</li>
+    </ul>
+    <h3>Women's 1000m Speed Skating 2014 Olympic Podium</h3>
+    <ul>
+      <li>Zhang Hong</li>
+      <li>Ireen Wüst</li>
+      <li>Margot Boer</li>
+    </ul>
+    <h3>Women's 1000m Speed Skating 2018 Olympic Podium</h3>
+    <ul>
+      <li>Jorien ter Mors</li>
+      <li>Nao Kodaira</li>
+      <li>Miho Takagi</li>
+    </ul>
+
+<h2 class="purple">Ordered lists</h2>
+    <h3>Top Songs of the 1980s</h3>
+    <ol>
+      <li>“Just Like Heaven” by the Cure <img src="../assets/img/heaven.jpeg" alt="Just Like Heaven"></li>
+      <li>“Modern Love” by David Bowie</li>
+      <li>“I Wanna Dance with Somebody” by Whitney Houston</li>
+      <li>“Free Fallin'” by Tom Petty</li>
+    </ol>
+    <h3>Top songs of the 1990s</h3>
+    <ol>
+      <li> Nirvana – ‘Smells Like Teen Spirit’ <img src="../assets/img/nirvana.jpeg" alt="Smells Like Team Spirit"></li>
+      <li>Goo Goo Dolls – ‘Iris’</li>
+      <li>Oasis – ‘Wonderwall’ </li>
+      <li>Red Hot Chili Peppers – ‘Under the Bridge’</li>
+    </ol>
+    <h3>Top songs of the 2000s</h3>
+    <ol>
+      <li>"Breathe"	Faith Hill <img src="../assets/img/breathe.jpeg" alt="Breathe"></li>
+      <li>"Smooth" Santana featuring Rob Thomas</li>
+      <li>"Maria Maria"	Santana featuring The Product G&B</li>
+      <li>"I Wanna Know" Joe</li>
+    </ol>
+
+
+  </section>
+  <section  class="s7">
+    <h2>Table Section</h2>
+    <h3>Richest People in the World</h3>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Net Worth</th>
+      </tr>
+      <tr>
+        <td>Jeff Bezos</td>
+        <td>Amazon</td>
+        <td>$190bn</td>
+      </tr>
+      <tr>
+        <td>Bill Gates</td>
+        <td>Microsoft</td>
+        <td>$120bn</td>
+      </tr>
+      <tr>
+        <td>Mark Zuckerberg</td>
+        <td>Facebook</td>
+        <td>$100bn</td>
+      </tr>
+    </table>
+
+
+
+<h3>Sock Brands, Their Prices, and Their Purpose</h3>
+    <table>
+      <tr>
+        <th>Bombas</th>
+        <th>Stance</th>
+        <th>Hanes</th>
+        <th>TRUsox</th>
+        <th>Nike</th>
+        <th>Lulu Lemon</th>
+      </tr>
+      <tr>
+        <td>$15.00</td>
+        <td>$9.99</td>
+        <td>$1.25</td>
+        <td>$45</td>
+        <td>$3.66</td>
+        <td>$14.00</td>
+      </tr>
+      <tr>
+        <td>Comfort</td>
+        <td>Fashion</td>
+        <td>Causal</td>
+        <td>Sport</td>
+        <td>Sport</td>
+        <td>Sport</td>
+      </tr>
+    </table>
+
+<h3>Shapes</h3>
+    <table>
+      <tr>
+        <th>Shapes</th>
+        <th># Sides</th>
+      </tr>
+      <tr>
+        <td>Square</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>Octagon</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Hexagon</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Hectagon</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Rhombus</td>
+        <td>4</td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>
